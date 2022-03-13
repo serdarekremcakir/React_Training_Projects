@@ -1,0 +1,70 @@
+#container{
+    width:400px;
+    background-color: rgb(230, 217, 217);
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ul,li,h3{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+
+
+.list{
+    margin:10px 0;
+}
+
+.list > li{
+    background-color: rgb(255, 249, 249);
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+li:hover{
+    background-color: rgb(97, 117, 111);
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+
+.btn > button{
+    padding: 8px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.34);
+}
+
+h4,h3{
+    margin: 16px 0;
+    padding:0;
+    text-decoration: underline;
+}
+
+
