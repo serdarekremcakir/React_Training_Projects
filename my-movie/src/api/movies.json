@@ -1,0 +1,32 @@
+{
+  "movies": [
+    {
+      "name": "The Flash",
+      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg",
+      "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
+      "rating": 8.3,
+      "id": 1
+    },
+    {
+      "id": 4,
+      "name": "Rogue",
+      "rating": 7.4,
+      "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
+      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/uOw5JD8IlD546feZ6oxbIjvN66P.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Project Power",
+      "rating": 6.7,
+      "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
+      "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/TnOeov4w0sTtV2gqICqIxVi74V.jpg"
+    },
+    {
+      "name": "The Game",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8ujzXZBOYCWdMWyYNT2B9OxUNlI.jpg",
+      "overview": "Nicholas Van Orton hem iş hem de özel hayatında kontrolü elinde tutmaya alışkın, zeki ve başarılı bir işadamıdır. Bu düzenli hayatı, kardeşi Conrad'ın ona verdiği alışıldığın dışındaki doğumgünü hediyesi ile köklü değişikliklere uğrayacaktır. Artık bir ölüm kalımsavaşı başlamıştır.",
+      "rating": "7.6",
+      "id": 7
+    }
+  ]
+}
