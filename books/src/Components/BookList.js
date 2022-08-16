@@ -17,7 +17,7 @@ export class BookList extends Component {
             {
               contextBook => {
 
-                const { isDarkTheme, dark, light } = contextTheme;
+                const {changeTheme, isDarkTheme, dark, light } = contextTheme;
                 const theme = isDarkTheme ? dark : light;
 
 
@@ -30,6 +30,7 @@ export class BookList extends Component {
                       <div className="text-center">
                         <h2 className="section-heading text-uppercase">BOOKFOLIO</h2>
                         <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <button type='button' className='btn btn-sm btn-info' style={{marginTop: -70}} onClick={changeTheme}>Change Theme</button>
                       </div>
                       <div className="row">
                         {contextBook.books.map((book, i) => {
