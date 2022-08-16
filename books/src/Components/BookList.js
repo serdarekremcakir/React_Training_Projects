@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 import Book from './Book';
 import './BookList.css'
+import  {BookContext} from './Context/BookContext';
+
 
 export class BookList extends Component {
+
+  static contextType = BookContext;
+  
   render() {
+    const books = this.context;
 
-    console.log(this.props.books);
-
-    const bookList = this.props.books.map((book, i) => {
+    const bookList = books.map((book, i) => {
       return <Book book={book} key={i}></Book>
     })
     return (

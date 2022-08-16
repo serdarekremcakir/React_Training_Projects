@@ -3,7 +3,7 @@ import './Book.css'
 
 export class Book extends Component {
   render() {
-    console.log(this.props.book);
+    //console.log(this.props.book);
     return (
       <div className="col-lg-4 col-sm-6 mb-4">
     <div className="portfolio-item">
