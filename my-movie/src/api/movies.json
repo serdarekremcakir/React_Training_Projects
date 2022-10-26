@@ -8,14 +8,14 @@
       "id": 1
     },
     {
-      "id": 4,
+      "id": 2,
       "name": "Rogue",
       "rating": 7.4,
       "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
       "imageURL": "https://image.tmdb.org/t/p/w220_and_h330_face/uOw5JD8IlD546feZ6oxbIjvN66P.jpg"
     },
     {
-      "id": 5,
+      "id": 3,
       "name": "Project Power",
       "rating": 6.7,
       "overview": "This is a wider card with supporting text below as a natural lead-in to additional content.",
@@ -26,7 +26,7 @@
       "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8ujzXZBOYCWdMWyYNT2B9OxUNlI.jpg",
       "overview": "Nicholas Van Orton hem iş hem de özel hayatında kontrolü elinde tutmaya alışkın, zeki ve başarılı bir işadamıdır. Bu düzenli hayatı, kardeşi Conrad'ın ona verdiği alışıldığın dışındaki doğumgünü hediyesi ile köklü değişikliklere uğrayacaktır. Artık bir ölüm kalımsavaşı başlamıştır.",
       "rating": "7.6",
-      "id": 7
+      "id": 4
     }
   ]
 }
