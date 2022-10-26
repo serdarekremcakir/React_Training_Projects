@@ -1,3 +1,12 @@
+
+### Live: [Manage Employees Live](https://sec-manage-employees.netlify.app)
+
+
+![sec-manage-employees](https://user-images.githubusercontent.com/75527964/198150825-bf4c8e21-7e03-416e-bca4-c3a581b631b9.png)
+![sec-manage-employees](https://user-images.githubusercontent.com/75527964/198150824-937a14bc-b6f6-4b06-ac94-e6e249cae9a9.png)
+![sec-manage-employees](https://user-images.githubusercontent.com/75527964/198150818-9a032bd1-5362-442e-a8c1-6a3ab0cc170d.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
