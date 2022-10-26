@@ -16,7 +16,7 @@ export class Book extends Component {
                 <div className="portfolio-hover" style={{background: theme.hover}}>
                   <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img className="img-fluid" src={this.props.book.imageURL} alt="..." />
+                <img className="img-fluid w-100" src={this.props.book.imageURL} alt="..." />
               </a>
               <div className="portfolio-caption">
                 <div className="portfolio-caption-heading">{this.props.book.title}</div>
