@@ -42,7 +42,7 @@ const Deploy = () => {
 
     const editMovie = (id, movie) => {
         const newMovieList = movies.filter(x => x.id !== Number(id));
-        setMovies([...newMovieList,movie])
+        setMovies([...newMovieList,{...movie,id:Number(id)}])
     }
 
     const searchMovie = (e) => {
