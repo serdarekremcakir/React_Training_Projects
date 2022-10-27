@@ -1,0 +1,15 @@
+.test {
+    height: 100vh;
+    background-color: gray;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+h1,h2,h3{
+    margin:0;
+    padding:0
+}
