@@ -1,5 +1,5 @@
 import React from 'react'
-import { useField } from 'formik'
+import { ErrorMessage, useField } from 'formik'
 
 const Textarea = ({...props}) => {
 
@@ -8,7 +8,8 @@ const Textarea = ({...props}) => {
     <label >
 
         <div>{props.label}</div>
-        <textarea style={{resize:'none'}} {...field} {...props}  cols="30" rows="5"></textarea>
+        <textarea style={{resize:'none'}} {...field} {...props}  cols="30" rows="5"></textarea><br /> 
+        <ErrorMessage name={field.name} />
     </label>
   )
 }

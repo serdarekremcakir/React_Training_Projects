@@ -7,6 +7,7 @@ import Textarea from './component/form/Textarea'
 import Select from './component/form/Select'
 import Radio from './component/form/Radio'
 import MultipleSelect from './component/form/MultipleSelect'
+import { SampleSchema } from './validations'
 
 const Contact = () => {
     return (
@@ -14,21 +15,22 @@ const Contact = () => {
             <h2>Contact Me</h2>
             <Formik
                 initialValues={{
-                    name: 'serdar',
+                    name: '',
                     accept: true,
                     avatar: '',
-                    skills: ['html', 'js'],
+                    skills: [],
                     about: '',
-                    gender: 0,
-                    level: 'jr'
+                    gender: '',
+                    level: ''
                 }}
                 onSubmit={
                     values => console.log(values)
                 }
+                validationSchema={SampleSchema}
             >
                 {props => (
                     <Form>
-                        {JSON.stringify(props.values)}
+                        <pre>{JSON.stringify(props.values,null,2)}</pre>
                         <br />
                         <File label="file" name="avatar" /><br />
 
@@ -43,7 +45,7 @@ const Contact = () => {
                         <Checkbox label='I Agree' name="accept" />
                         <br />
 
-                        <Select label='Gender' name="gender" options={[{ key: 0, value: 'Select', dsb: true }, { key: 1, value: 'Man' }, { key: 2, value: 'Women' }]}>
+                        <Select label='Gender' name="gender" options={[{ key: '', value: 'Select', dsb: false }, { key: 1, value: 'Man' }, { key: 22, value: 'Women' }]}>
                         </Select><br />
                         <br />
 
@@ -60,7 +62,7 @@ const Contact = () => {
 
                         <br />
                         <br />
-                        <button disabled={!props.values.accept || props.values.gender === 0} type='submit'>submit</button>
+                        <button disabled={false} type='submit'>submit</button>
                     </Form>
                 )}
 

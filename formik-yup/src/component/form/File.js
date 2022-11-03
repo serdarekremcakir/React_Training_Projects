@@ -1,11 +1,10 @@
 import React from 'react'
-import { useField} from 'formik'
+import { ErrorMessage, useField} from 'formik'
 import { FiCheck } from 'react-icons/fi'
 
 const File = ({...props}) => {
 
     const [field,meta,helpers] =useField(props);
-
 
 
     const changeHandle = e => {
@@ -26,6 +25,8 @@ const File = ({...props}) => {
         <input type='file' style={{display:'none'}} onChange={changeHandle} {...props} />
 <br />
         {field.value && <span style={{cursor:'pointer', textDecoration:'underline', color:'#8414cf', fontSize:'14px',}} onClick={() => {helpers.setValue('')}}>delete file</span>}
+        <ErrorMessage name={field.name} component='small' />
+        <br />
     </label>
   )
 }
