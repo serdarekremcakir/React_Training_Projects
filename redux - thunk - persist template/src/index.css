@@ -1,0 +1,95 @@
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+
+html > body > #root{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,li{
+  margin:0;
+  padding:0
+}
+
+
+.form{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > input{
+  height: 50%;
+  border-radius: 20px;
+  width: 30%;
+  outline: none;
+  border: 1px solid gray;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-right: 15px;
+ 
+}
+
+.form > button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid gray;
+}
+
+ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 750px;
+  overflow-y: auto;
+}
+
+li{
+  width: 40%;
+  padding: 10px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+li>button{
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  color: #fff;
+
+}
+
+li:not(:last-child){
+  margin-bottom: 15px;
+}
